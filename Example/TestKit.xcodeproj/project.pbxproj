@@ -499,8 +499,11 @@
 			baseConfigurationReference = 814F23DF679AAFCB514AF86E /* Pods-TestKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
 				DEVELOPMENT_TEAM = W46L3E496A;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestKit/TestKit-Prefix.pch";
 				INFOPLIST_FILE = "TestKit/TestKit-Info.plist";
@@ -517,8 +520,11 @@
 			baseConfigurationReference = F0E3DD60A5B441373CD79F71 /* Pods-TestKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_MODULES_AUTOLINK = YES;
 				DEVELOPMENT_TEAM = W46L3E496A;
 				ENABLE_BITCODE = NO;
+				EXCLUDED_ARCHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestKit/TestKit-Prefix.pch";
 				INFOPLIST_FILE = "TestKit/TestKit-Info.plist";
