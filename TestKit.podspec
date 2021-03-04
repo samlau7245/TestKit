@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'TestKit'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of TestKit.'
 
 # This description is used to generate tags and improve search results.
@@ -28,11 +28,12 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/samlau7245/TestKit.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
-
   s.source_files = 'TestKit/Classes/**/*'
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.requires_arc    = true
+  s.platform        = :ios, '9.0'
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'TestKit' => ['TestKit/Assets/*.png']
