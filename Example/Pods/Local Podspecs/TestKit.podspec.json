@@ -1,0 +1,27 @@
+{
+  "name": "TestKit",
+  "version": "0.1.0",
+  "summary": "A short description of TestKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/samrec/TestKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "samrec": "samlau7245@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/samrec/TestKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TestKit/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.0"
+    ]
+  }
+}

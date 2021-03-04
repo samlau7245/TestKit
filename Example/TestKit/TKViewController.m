@@ -7,6 +7,7 @@
 //
 
 #import "TKViewController.h"
+#import <HttpTool.h>
 
 @interface TKViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [[HttpTool new] request];
+    
 }
 
 - (void)didReceiveMemoryWarning
