@@ -10,7 +10,14 @@
 #endif
 #endif
 
-#import "HttpTool.h"
+#import "XNGCompatibilityMacros.h"
+#import "XNGHTTPSessionManager.h"
+#import "XNGNetworking.h"
+#import "XNGNetworkReachabilityManager.h"
+#import "XNGSecurityPolicy.h"
+#import "XNGURLRequestSerialization.h"
+#import "XNGURLResponseSerialization.h"
+#import "XNGURLSessionManager.h"
 
 FOUNDATION_EXPORT double TestKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestKitVersionString[];
