@@ -29,11 +29,10 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.source_files = 'TestKit/Classes/**/*'
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.requires_arc    = true
   s.platform        = :ios, '9.0'
   s.static_framework = true
+  s.prefix_header_file = 'TestKit/Classes/SEGNetworkingNameSpace.pch'
   
   # s.resource_bundles = {
   #   'TestKit' => ['TestKit/Assets/*.png']
@@ -41,5 +40,4 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'AFNetworking', '~> 3.0'
 end

@@ -11,4 +11,31 @@
 // Include any system framework and library headers here that should be included in all compilation units.
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
+/// NameSpace
+#define AFURLSessionManager                  XNGURLSessionManager
+#define AFHTTPRequestSerializer              XNGHTTPRequestSerializer
+#define AFHTTPResponseSerializer             XNGHTTPResponseSerializer
+#define AFHTTPSessionManager                 XNGHTTPSessionManager
+#define AFJSONResponseSerializer             XNGJSONResponseSerializer
+#define AFSecurityPolicy                     XNGSecurityPolicy
+#define AFNetworkReachabilityManager         XNGNetworkReachabilityManager
+#define AFSecurityPolicy                     XNGSecurityPolicy
+#define AFHTTPBodyPart                       XNGHTTPBodyPart
+#define AFHTTPRequestSerializer              XNGHTTPRequestSerializer
+#define AFJSONRequestSerializer              XNGJSONRequestSerializer
+#define AFMultipartBodyStream                XNGMultipartBodyStream
+#define AFPropertyListRequestSerializer      XNGPropertyListRequestSerializer
+#define AFQueryStringPair                    XNGQueryStringPair
+#define AFStreamingMultipartFormData         XNGStreamingMultipartFormData
+#define AFCompoundResponseSerializer         XNGCompoundResponseSerializer
+#define AFHTTPResponseSerializer             XNGHTTPResponseSerializer
+#define AFImageResponseSerializer            XNGImageResponseSerializer
+#define AFJSONResponseSerializer             XNGJSONResponseSerializer
+#define AFPropertyListResponseSerializer     XNGPropertyListResponseSerializer
+#define AFXMLParserResponseSerializer        XNGXMLParserResponseSerializer
+#define AFJSONResponseSerializer             XNGJSONResponseSerializer
+#define AFNetworkReachabilityManager         XNGNetworkReachabilityManager
+#define AFSecurityPolicy                     XNGSecurityPolicy
+#define AFURLSessionManagerTaskDelegate      XNGURLSessionManagerTaskDelegate
+
 #endif /* SEGNetworkingNameSpace_pch */
